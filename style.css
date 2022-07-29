@@ -16,7 +16,7 @@ html {
 }
 
 body {
-    background-color: rgba(27, 32, 95, 0.603);
+    background-color: #d3d3d3;
     display: flex;
     justify-content: center;
 }
@@ -30,7 +30,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 main {
-    width: 1120px;
+    width: 100%;
 }
 
 /* HEADER*/
@@ -44,9 +44,9 @@ header {
     position: fixed;
     top: 0;
     z-index: 999;
-    background-color: #444;
+    background-color: #444444;
     box-shadow: 0 1px 0 #ececec;
-    max-width: 1120px;
+    color: #ffffff;
     width: 100%;
 }
 
@@ -58,7 +58,7 @@ header {
 a {
     cursor: pointer;
     text-decoration: none;
-    color: black;
+    color: #fff;
     font-size: 20px;
 }
 
@@ -85,7 +85,7 @@ section#home {
     width: 150px;
     padding: 10px;
     background-color: blue;
-    color: rgb(109, 102, 102);
+    color: white;
     font-size: 18px;
     cursor: pointer;
     opacity: 0.9;
@@ -102,7 +102,7 @@ section#home {
 
 .home-img {
     width: 30px;
-    display: felx;
+    display: flex;
     align-items: center;
     justify-content: center;
 }
@@ -147,7 +147,7 @@ section#projects {
 }
 
 .project-info {
-    /*width: 50%;*/
+    width: 50%;
     display: flex;
     flex-direction: column;
     text-align: start;
@@ -187,7 +187,7 @@ section#projects {
     gap: 30px;
 }
 
-#contact {
+#contact form{
     display: flex;
     flex-direction: column;
     gap: 10px;
